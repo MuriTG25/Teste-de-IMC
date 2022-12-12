@@ -1,0 +1,39 @@
+html { background-color: #DCDCDC;}
+body {width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body > h1 {font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+p + img {width: 40%;
+    margin: 1rem auto; display: inline-block;
+}
+
+table 
+	{margin: 30px 0;
+}
+thead 
+	{font-weight: bold;
+	background: #c4c2c2;}
+tbody 
+	{background: white;
+}
+th,td 
+	{border: 2px solid #000000;
+	padding: 5px 30px;
+	text-align: center;
+}
+
+/*adaptação mobile*/
+@media screen and (max-width: 480px) 
+	{
+	body {
+        width: 100%;
+    }
+	p + img {width: 100%;}
+    }
