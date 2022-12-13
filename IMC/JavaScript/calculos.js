@@ -10,8 +10,8 @@ else if (imcConta>35) {return textosImc[4]} };
 
 //parâmetros
 let nomes = ['Flávio','Júlio','Roberto','Vicente',prompt ('Qual é o seu nome?')];
-let peso = [89,53,79,130,prompt ('Qual é seu peso?')];
-let altura = [1.65, 1.78,1.86,1.75,prompt ('Qual é a sua altura?(use . ao invés de ,)')];
+let peso = [89,53,79,130,parseInt(prompt ('Qual é seu peso?'))];
+let altura = [1.65, 1.78,1.86,1.75,parseInt(prompt ('Qual é a sua altura?(use . ao invés de ,)'))];
 let textosImc = ['Você está abaixo do peso ideal','Você está no peso ideal','Você está com sobrepeso','Você está com obesidade grau 1','Você está com obesidade grau 2']
 let colunatabela = ('<tr>');
 
